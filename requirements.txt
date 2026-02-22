@@ -1,0 +1,10 @@
+torch>=2.0.0
+torchaudio>=2.0.0
+numpy<2.0.0
+librosa
+textgrid
+pyworld
+pyyaml
+matplotlib
+tqdm
+IPython
