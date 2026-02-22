@@ -1,0 +1,21 @@
+# Игнорируем виртуальные окружения и кэш
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Игнорируем тяжелые данные и артефакты
+*.wav
+*.npy
+*.npz
+*.TextGrid
+*.lab
+artifacts/
+mfa_data_16k/
+RUSLAN_RAW/
+RUSLAN_EXTRACTED/
+
+# Игнорируем веса моделей
+*.pth
+*.pt
+checkpoints/
+mfa_models/
