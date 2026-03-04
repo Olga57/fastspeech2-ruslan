@@ -38,6 +38,6 @@ def download_weights():
     # Удаляем временную папку за собой
     shutil.rmtree(temp_dir, ignore_errors=True)
     print("🎉 Скачивание завершено! Все веса на месте.")
-
+lakectl commit lakefs://my-repository/main --message "Упаковка кода и данных версии v1.0"
 if __name__ == "__main__":
     download_weights()
