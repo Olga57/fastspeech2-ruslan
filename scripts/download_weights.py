@@ -13,6 +13,7 @@ def download_weights():
     
     print("📥 Скачиваем папку с весами из Google Drive...")
     # Скачиваем всё содержимое папки
+    gitfs https://github.com/user/repository.git /path/to/mountpoint
     gdown.download_folder(url=folder_url, output=temp_dir, quiet=False, use_cookies=False)
     
     print("🔄 Распределяем файлы по папкам...")
